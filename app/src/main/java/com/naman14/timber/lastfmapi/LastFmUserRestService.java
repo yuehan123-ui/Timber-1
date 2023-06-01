@@ -11,9 +11,6 @@ import retrofit.http.FieldMap;
 import retrofit.http.FormUrlEncoded;
 import retrofit.http.POST;
 
-/**
- * Created by christoph on 17.07.16.
- */
 public interface LastFmUserRestService {
 
     String BASE = "/";

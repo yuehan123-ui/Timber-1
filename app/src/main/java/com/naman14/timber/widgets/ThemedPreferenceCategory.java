@@ -9,9 +9,7 @@ import android.widget.TextView;
 import com.afollestad.appthemeengine.Config;
 import com.naman14.timber.utils.Helpers;
 
-/**
- * Created by naman on 31/12/15.
- */
+
 public class ThemedPreferenceCategory extends PreferenceCategory {
 
     private Context context;

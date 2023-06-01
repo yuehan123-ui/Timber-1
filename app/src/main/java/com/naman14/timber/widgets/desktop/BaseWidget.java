@@ -11,9 +11,7 @@ import android.widget.RemoteViews;
 
 import com.naman14.timber.MusicService;
 
-/**
- * Created by nv95 on 02.11.16.
- */
+
 
 public abstract class BaseWidget extends AppWidgetProvider {
 

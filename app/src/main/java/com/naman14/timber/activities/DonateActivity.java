@@ -23,9 +23,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-/**
- * Created by naman on 29/10/16.
- */
+
 public class DonateActivity extends BaseThemedActivity implements BillingProcessor.IBillingHandler {
 
     private static final String DONATION_1 = "naman14.timber.donate_1";

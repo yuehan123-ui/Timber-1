@@ -329,9 +329,7 @@ public class MainActivity extends BaseActivity implements ATEActivityThemeCustom
 
     private void setupNavigationIcons(NavigationView navigationView) {
 
-        //material-icon-lib currently doesn't work with navigationview of design support library 22.2.0+
-        //set icons manually for now
-        //https://github.com/code-mc/material-icon-lib/issues/15
+
 
         if (!isDarkTheme) {
             navigationView.getMenu().findItem(R.id.nav_library).setIcon(R.drawable.library_music);

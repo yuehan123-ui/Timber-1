@@ -16,9 +16,6 @@ import com.naman14.timber.utils.TimberUtils;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-/**
- * Created by naman on 2/12/17.
- */
 
 public class TimberCastHelper  {
 

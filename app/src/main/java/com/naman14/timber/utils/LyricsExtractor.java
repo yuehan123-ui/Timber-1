@@ -7,9 +7,6 @@ import java.io.InputStream;
 import java.nio.charset.Charset;
 import java.util.Arrays;
 
-/**
- * Created by Christoph Walcher on 03.12.16.
- */
 
 public class LyricsExtractor {
     public static String getLyrics(File file){

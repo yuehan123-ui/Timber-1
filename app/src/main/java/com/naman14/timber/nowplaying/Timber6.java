@@ -20,9 +20,7 @@ import com.naman14.timber.widgets.CircleImageView;
 
 import net.steamcrafted.materialiconlib.MaterialDrawableBuilder;
 
-/**
- * Created by naman on 22/02/17.
- */
+
 
 public class Timber6 extends BaseNowplayingFragment {
 

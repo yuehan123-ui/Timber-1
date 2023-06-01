@@ -15,9 +15,6 @@ import com.naman14.timber.utils.NavigationUtils;
 import com.naman14.timber.utils.TimberUtils;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
-/**
- * Created by nv95 on 08.07.16.
- */
 
 public class StandardWidget extends BaseWidget {
 

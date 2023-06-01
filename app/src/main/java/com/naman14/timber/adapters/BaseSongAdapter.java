@@ -17,9 +17,6 @@ import com.naman14.timber.utils.TimberUtils;
 
 import java.util.List;
 
-/**
- * Created by naman on 7/12/17.
- */
 
 public class BaseSongAdapter<V extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<V> {
 

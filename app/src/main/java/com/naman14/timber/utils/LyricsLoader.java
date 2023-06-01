@@ -23,9 +23,6 @@ import retrofit.http.Query;
 import retrofit.mime.TypedInput;
 import retrofit.mime.TypedOutput;
 
-/**
- * Created by Christoph Walcher on 03.12.16.
- */
 
 public class LyricsLoader {
     private static LyricsLoader instance = null;

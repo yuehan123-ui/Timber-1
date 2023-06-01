@@ -3,9 +3,6 @@ package com.naman14.timber.cast;
 import com.google.android.gms.cast.framework.Session;
 import com.google.android.gms.cast.framework.SessionManagerListener;
 
-/**
- * Created by naman on 7/12/17.
- */
 
 public class SimpleSessionManagerListener implements SessionManagerListener {
 

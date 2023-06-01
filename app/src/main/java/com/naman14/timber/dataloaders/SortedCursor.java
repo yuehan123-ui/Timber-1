@@ -1,18 +1,4 @@
-/*
-* Copyright (C) 2014 The CyanogenMod Project
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/
+
 package com.naman14.timber.dataloaders;
 
 import android.database.AbstractCursor;
@@ -23,11 +9,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 
-/**
- * This cursor basically wraps a song cursor and is given a list of the order of the ids of the
- * contents of the cursor. It wraps the Cursor and simulates the internal cursor being sorted
- * by moving the point to the appropriate spot
- */
+
 public class SortedCursor extends AbstractCursor {
     // cursor to wrap
     private final Cursor mCursor;
@@ -40,11 +22,7 @@ public class SortedCursor extends AbstractCursor {
     // extra we want to store with the cursor
     private ArrayList<Object> mExtraData;
 
-    /**
-     * @param cursor     to wrap
-     * @param order      the list of unique ids in sorted order to display
-     * @param columnName the column name of the id to look up in the internal cursor
-     */
+
     public SortedCursor(final Cursor cursor, final long[] order, final String columnName,
                         final List<? extends Object> extraData) {
         if (cursor == null) {
